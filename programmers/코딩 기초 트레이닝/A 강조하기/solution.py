@@ -1,0 +1,2 @@
+def solution(myString):
+    return "".join("A" if c == "a" else (c if c == "A" else c.lower()) for c in myString)
